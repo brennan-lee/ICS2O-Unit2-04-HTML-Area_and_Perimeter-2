@@ -18,5 +18,5 @@ function enterClicked() {
 
   // output
   document.getElementById("area-of-triangle").innerHTML =
-  "the area of the triangle is: " + area + " cm²."
+    "the area of the triangle is: " + area + " cm²."
 }
