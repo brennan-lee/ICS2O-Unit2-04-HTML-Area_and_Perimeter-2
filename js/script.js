@@ -10,8 +10,8 @@
  */
 function calculate() {
   // input
-  const length = parseInt(document.getElementById('length-of-triangle').value)
-  const width = parseInt(document.getElementById('width-of-triangle').value)
+  const length = parseInt(document.getElementById("length-of-triangle").value)
+  const width = parseInt(document.getElementById("width-of-triangle").value)
 
   // process
   const area = length * width
