@@ -6,19 +6,17 @@
 
 "use strict"
 /**
- * This function calculates area and perimeter of triangle.
+ * This function calculates area of triangle.
  */
-function calculate() {
+function enterClicked() {
   // input
-  const length = parseInt(document.getElementById("length-of-triangle").value)
-  const width = parseInt(document.getElementById("width-of-triangle").value)
+  const base = parseInt(document.getElementById("base-of-triangle").value)
+  const height = parseInt(document.getElementById("height-of-triangle").value)
 
   // process
-  const area = length * width
-  const perimeter = 2 * (length + width)
+  const area = (base * height) /2
 
   // output
-  document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
-  document.getElementById("perimeter").innerHTML =
-    "Perimeter is: " + perimeter + " cm"
+  document.getElementById("area of triangle").innerHTML 
+    "the area of the triangle is: " + area + " cm²."
 }

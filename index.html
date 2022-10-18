@@ -43,39 +43,37 @@
             </th>
             <th>
               <h2>Formulas</h2>
-              <h3>A = b x hb</h3>
-              <h3>P = 2 x (b + hb)</h3>
+              <h3>A = base x height </h3>
+              <h3>P = 1/2 x (b + height)</h3>
             </th>
           </tr>
         </table>
         <!-- Simple Textfield -->
         <form action="#">
-          <p>base</p>
+          <p>height</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="length-of-triangle"
+              id="height-of-triangle"
             />
-            <label class="mdl-textfield__label" for="length-of-triangle"
-              >base ...</label
-            >
+            <label class="mdl-textfield__label" for="height-of-triangle">height ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
         <!-- Numeric Textfield -->
         <form action="#">
-          <p>hb</p>
+          <p>base in cm</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="width-of-triangle"
+              id="base-of-triangle"
             />
-            <label class="mdl-textfield__label" for="width-of-triangle"
-              >width ...</label
+            <label class="mdl-textfield__label" for="base-of-triangle"
+              >base here ...</label
             >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
@@ -91,7 +89,7 @@
         <br />
         <div id="answers">
           <div id="base"></div>
-          <div id="hb"></div>
+          <div id="height"></div>
         </div>
       </main>
     </div>
