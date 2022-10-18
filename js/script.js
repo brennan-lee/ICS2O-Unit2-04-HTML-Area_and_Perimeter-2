@@ -17,6 +17,6 @@ function enterClicked() {
   const area = (base * height) / 2
 
   // output
-  document.getElementById("area-of-triangle").innerHTML
+  document.getElementById("area-of-triangle").innerHTML =
   "the area of the triangle is: " + area + " cm²."
 }
