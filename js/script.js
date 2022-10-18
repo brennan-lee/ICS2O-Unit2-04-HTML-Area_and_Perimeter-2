@@ -14,9 +14,9 @@ function enterClicked() {
   const height = parseInt(document.getElementById("height-of-triangle").value)
 
   // process
-  const area = (base * height) /2
+  const area = (base * height) / 2
 
   // output
-  document.getElementById("area of triangle").innerHTML 
-    "the area of the triangle is: " + area + " cm²."
+  document.getElementById("area of triangle").innerHTML
+  "the area of the triangle is: " + area + " cm²."
 }
