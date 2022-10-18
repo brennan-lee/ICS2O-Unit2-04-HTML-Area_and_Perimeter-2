@@ -6,12 +6,12 @@
 
 "use strict"
 /**
- * This function calculates area and perimeter of rectangle.
+ * This function calculates area and perimeter of triangle.
  */
 function calculate() {
   // input
-  const length = parseInt(document.getElementById("length-of-rectangle").value)
-  const width = parseInt(document.getElementById("width-of-rectangle").value)
+  const length = parseInt(document.getElementById('length-of-triangle').value)
+  const width = parseInt(document.getElementById('width-of-triangle').value)
 
   // process
   const area = length * width
